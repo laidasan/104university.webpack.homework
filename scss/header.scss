@@ -1,0 +1,36 @@
+// @layer components {
+//   .header {
+//     @apply bg-gray-200;
+
+//     &-container {
+//       @apply flex justify-between items-center max-w-xs;
+//       @apply mx-auto;
+
+//       max-width: 90%;
+
+//       &-content {
+//         &--logo {
+//           @apply w-10 h-10 bg-gray-700 ;
+//         }
+//       }
+//     }
+
+//     &__menu {
+//       @apply text-0;
+
+//       &__item {
+//         @apply inline-block align-middle;
+//         @apply bg-gray-400;
+//         @apply text-base text-gray-700 font-normal;
+
+//         .link {
+//           @apply inline-block px-2 py-4 #{!important};
+//         }
+
+//         &:not(:last-child) {
+//           @apply mr-4;
+//         }
+//       }
+//     }
+//   }
+// }

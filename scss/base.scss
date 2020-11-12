@@ -1,0 +1,10 @@
+@layer base {
+  *,
+  *::after,
+  *::before {
+    box-sizing: content-box;
+    border-width: medium;
+    border-style: none;
+    border-color: currentColor;
+  }
+}
